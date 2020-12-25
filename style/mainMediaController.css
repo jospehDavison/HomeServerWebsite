@@ -1,0 +1,43 @@
+/*displays objects in center*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*default text font and color*/
+body p{
+	font-family: Arial,Helvetica,sans-serif;
+	color: #343434;
+}
+body a{
+	font-family: Arial,Helvetica,sans-serif;
+	color: #343434;
+}
+
+body a:hover{
+	color: inherit;
+}
+
+/*button style*/
+.button {
+	color: #fff !important;
+	text-decoration: none;
+	background: #89cff0;
+	padding: 10px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.link{
+	cursor: pointer;
+}
+
+row{
+	padding-right: 50px;
+}
